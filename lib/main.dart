@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         Sebha.routeName:(context)=>Sebha(),
       },
       theme: MyThemeData.lightTheme,
-      darkTheme: MyThemeData.lightTheme,
+      darkTheme: MyThemeData.darkTheme,
 
     );
   }
