@@ -39,7 +39,10 @@ class _HomeScreenState extends State<HomeScreen> {
               });
             },
               items: [
-            BottomNavigationBarItem(icon: ImageIcon(AssetImage('assets/images/quran.png'),),label: "Quran", backgroundColor: MyThemeData.primaryColor),
+            BottomNavigationBarItem(
+                icon: ImageIcon(AssetImage('assets/images/quran.png'),),
+                label: "Quran",
+                backgroundColor: MyThemeData.primaryColor),
             BottomNavigationBarItem(icon: ImageIcon(AssetImage('assets/images/sebha.png'),), label: "Sebha", backgroundColor: MyThemeData.primaryColor),
                 BottomNavigationBarItem(icon: ImageIcon(AssetImage('assets/images/radio.png'),),label: "Radio", backgroundColor: MyThemeData.primaryColor),
                 BottomNavigationBarItem(icon: ImageIcon(AssetImage('assets/images/ahadith.png'),),label: "Ahadith", backgroundColor: MyThemeData.primaryColor),
