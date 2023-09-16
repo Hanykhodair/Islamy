@@ -16,7 +16,7 @@ class MyThemeData{
         bodyMedium: GoogleFonts.elMessiri(
           fontSize: 25,
           fontWeight: FontWeight.w700,
-          color: Color(0xFFFFFFFF),
+          color: blackColor,
         ),
         bodyLarge: GoogleFonts.elMessiri(
           fontSize: 30,
@@ -25,6 +25,7 @@ class MyThemeData{
         )
     ),
     appBarTheme: AppBarTheme(
+      iconTheme: IconThemeData(color: blackColor),
         color: Colors.transparent,
         elevation: 0.0,
         centerTitle: true),
@@ -33,9 +34,10 @@ class MyThemeData{
       selectedItemColor: blackColor,
       unselectedItemColor: Colors.white,
       backgroundColor: primaryColor,
-
-    )
-  );
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.red),),
+  ),);
   static ThemeData darkTheme =ThemeData();
 
 }

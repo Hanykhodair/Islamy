@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islamyapp/MyThemeData.dart';
 
 class AhadithTab extends StatelessWidget {
   const AhadithTab({super.key});
@@ -7,6 +8,9 @@ class AhadithTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.amber,
+      child: ElevatedButton(onPressed: (){}, child: Text('Test'),
+        style: Theme.of(context).elevatedButtonTheme.style,
+      ),
     );
   }
 }
