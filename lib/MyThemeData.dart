@@ -9,17 +9,17 @@ class MyThemeData{
     scaffoldBackgroundColor: Colors.transparent,
     textTheme: TextTheme(
         bodySmall: GoogleFonts.elMessiri(
-          fontSize: 20,
+          fontSize: 30,
           fontWeight: FontWeight.w400,
           color: blackColor,
         ),
         bodyMedium: GoogleFonts.elMessiri(
-          fontSize: 25,
+          fontSize: 45,
           fontWeight: FontWeight.w700,
           color: blackColor,
         ),
         bodyLarge: GoogleFonts.elMessiri(
-          fontSize: 30,
+          fontSize: 60,
           fontWeight: FontWeight.w900,
           color: blackColor,
         )
