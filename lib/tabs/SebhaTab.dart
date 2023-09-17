@@ -34,21 +34,16 @@ class _SebhaTabState extends State<SebhaTab> {
     Divider(height: 30,),
     ElevatedButton(onPressed: (){
       for(int i=0; i<=tasbeeh.length; i++)
-        {
-      if (counter<15)
       {
-        counter++;
-        break;
-      }
-      else
+        if (counter<15)
         {
-          if (tasbeeh[i]==tasbeeh.lastOrNull){
-            i=0;
-          }
+          counter++;
+          break;
+        }
           newTasbiha=tasbeeh[i];
-          counter=0;
-        }
-        }
+          counter=1;
+      }
+
       setState(() {
 
       });
